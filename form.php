@@ -1,5 +1,5 @@
 <?php
-$q = isset($_GET['q'])? htmlspecialchars($_GET['q']) : '';   //？：问号冒号选择表达式
+$q = isset($_GET['q'])? htmlspecialchars($_GET['q']) : '';  
 if($q) {
         if($q =='RUNOOB') {
                 echo '菜鸟教程<br>http://www.runoob.com';
